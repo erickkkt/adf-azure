@@ -1,0 +1,9 @@
+{
+	"name": "etl-data-factory-vn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28ba7333-7af1-462e-b849-ddb50272d68c",
+		"tenantId": "424a9020-3a1f-43aa-9335-10eb0d7b637a"
+	}
+}
