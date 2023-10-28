@@ -30,12 +30,9 @@
 							}
 						}
 					},
-					"fieldList": [
-						"childItems"
-					],
+					"fieldList": [],
 					"storeSettings": {
-						"type": "AzureBlobFSReadSettings",
-						"recursive": true
+						"type": "AzureBlobStorageReadSettings"
 					},
 					"formatSettings": {
 						"type": "DelimitedTextReadSettings"
@@ -76,7 +73,7 @@
 								"source": {
 									"type": "DelimitedTextSource",
 									"storeSettings": {
-										"type": "AzureBlobFSReadSettings",
+										"type": "AzureBlobStorageReadSettings",
 										"recursive": true
 									},
 									"formatSettings": {
