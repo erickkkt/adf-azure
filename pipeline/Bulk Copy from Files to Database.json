@@ -20,7 +20,9 @@
 						"referenceName": "ExcelSample",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"columnCount"
+					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
 						"modifiedDatetimeStart": "2023-10-28T00:00:00.000Z",
