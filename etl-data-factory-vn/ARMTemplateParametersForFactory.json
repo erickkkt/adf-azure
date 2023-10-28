@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "etl-data-factory-vn"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageDestination_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageSource_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageTaiHoangSample_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage_dftaihoang_connectionString": {
+			"value": ""
+		},
+		"AzureSQLDb_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageTaiHoangSample_properties_typeProperties_url": {
+			"value": "https://dfstoragevntaihoang.dfs.core.windows.net/"
+		}
+	}
+}
