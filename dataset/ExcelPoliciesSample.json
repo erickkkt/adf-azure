@@ -11,10 +11,10 @@
 			"sheetName": "Data",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Aston Lark - Motor Bordereau - August 2022.xlsx",
+				"fileName": "data-policies.xlsx",
 				"container": "source"
 			},
-			"firstRowAsHeader": true
+			"firstRowAsHeader": false
 		},
 		"schema": [
 			{
