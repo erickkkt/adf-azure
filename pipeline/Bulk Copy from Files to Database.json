@@ -22,7 +22,9 @@
 					},
 					"fieldList": [],
 					"storeSettings": {
-						"type": "AzureBlobStorageReadSettings"
+						"type": "AzureBlobStorageReadSettings",
+						"modifiedDatetimeStart": "2023-10-28T00:00:00.000Z",
+						"modifiedDatetimeEnd": "2023-10-31T00:00:00.000Z"
 					}
 				}
 			},
