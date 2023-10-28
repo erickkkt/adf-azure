@@ -1,0 +1,18 @@
+{
+	"name": "DestinationDataset_18h",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDestination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Copy-File",
+				"container": "destination"
+			}
+		}
+	}
+}
