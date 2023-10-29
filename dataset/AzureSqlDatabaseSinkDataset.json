@@ -8,7 +8,8 @@
 		},
 		"parameters": {
 			"sinkTableName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "IndividualPolicy"
 			}
 		},
 		"annotations": [],
