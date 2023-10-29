@@ -24,6 +24,9 @@
 			"transformations": [
 				{
 					"name": "FilterIndividual"
+				},
+				{
+					"name": "SelectColumns"
 				}
 			],
 			"scriptLines": [
@@ -57,7 +60,27 @@
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source1",
 				"source1 filter(Column_1=='individual') ~> FilterIndividual",
-				"FilterIndividual sink(allowSchemaDrift: true,",
+				"FilterIndividual select(mapColumn(",
+				"          InsuredType = Column_1,",
+				"          InsuredFirstName = Column_2,",
+				"          InsuredSurname = Column_3,",
+				"          InsuredBirthday = Column_4,",
+				"          Postcode = Column_5,",
+				"          Address1 = Column_6,",
+				"          Address2 = Column_7,",
+				"          Address3 = Column_8,",
+				"          Telephone = Column_9,",
+				"          EmailAddress = Column_10,",
+				"          NumberVehicle = Column_14,",
+				"          VehicleRegistration = Column_15,",
+				"          InceptionDate = Column_19,",
+				"          GrossPremium = Column_20,",
+				"          IPT = Column_21,",
+				"          NetPremium = Column_22",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> SelectColumns",
+				"SelectColumns sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     deletable:false,",
 				"     insertable:true,",
