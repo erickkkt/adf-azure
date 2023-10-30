@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeOnPrem",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Integration runtime on self server"
+	}
+}
